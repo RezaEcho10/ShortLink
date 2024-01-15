@@ -1,0 +1,12 @@
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\bin\Debug\net5.0\ShortLink.Domain.deps.json
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\bin\Debug\net5.0\ShortLink.Domain.dll
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\bin\Debug\net5.0\ref\ShortLink.Domain.dll
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\bin\Debug\net5.0\ShortLink.Domain.pdb
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\obj\Debug\net5.0\ShortLink.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\obj\Debug\net5.0\ShortLink.Domain.AssemblyInfoInputs.cache
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\obj\Debug\net5.0\ShortLink.Domain.AssemblyInfo.cs
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\obj\Debug\net5.0\ShortLink.Domain.csproj.CoreCompileInputs.cache
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\obj\Debug\net5.0\ShortLink.Domain.dll
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\obj\Debug\net5.0\ref\ShortLink.Domain.dll
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\obj\Debug\net5.0\ShortLink.Domain.pdb
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Domain\obj\Debug\net5.0\ShortLink.Domain.csprojAssemblyReference.cache

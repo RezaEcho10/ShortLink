@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gJJYQnQWMlas1Yfz30t6mDgCNwNnFH+wbmreLZJC8MQ5apJpCjA5p+G/DASAjkCRPQs7/QkyBG+JirK0VJBVCA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\King\\Documents\\ASP.Net\\ShortLink\\ShortLink.Inrfa.Ioc\\ShortLink.Inrfa.Ioc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0-preview.1.20120.4\\microsoft.extensions.dependencyinjection.5.0.0-preview.1.20120.4.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0-preview.1.20120.4\\microsoft.extensions.dependencyinjection.abstractions.5.0.0-preview.1.20120.4.nupkg.sha512"
+  ],
+  "logs": []
+}

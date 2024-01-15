@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "kX1hf68P14+dbeFwDPbyhCRjpKOcVEBv5icA2iCr589aAJOOG2KDlSDL+7Eb3AmHBlZ2kPPRmhG9vnnYOBZ8xA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\King\\Documents\\ASP.Net\\ShortLink\\ShortLink.Application\\ShortLink.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0-preview.2.20120.8\\microsoft.entityframeworkcore.5.0.0-preview.2.20120.8.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0-preview.2.20120.8\\microsoft.entityframeworkcore.abstractions.5.0.0-preview.2.20120.8.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0-preview.2.20120.8\\microsoft.entityframeworkcore.analyzers.5.0.0-preview.2.20120.8.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0-preview.2.20120.8\\microsoft.entityframeworkcore.design.5.0.0-preview.2.20120.8.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0-preview.2.20120.8\\microsoft.entityframeworkcore.relational.5.0.0-preview.2.20120.8.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.0\\microsoft.extensions.caching.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.0\\microsoft.extensions.caching.memory.3.1.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.0\\microsoft.extensions.configuration.3.1.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.0\\microsoft.extensions.configuration.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.0\\microsoft.extensions.configuration.binder.3.1.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0-preview.1.20120.4\\microsoft.extensions.dependencyinjection.5.0.0-preview.1.20120.4.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0-preview.1.20120.4\\microsoft.extensions.dependencyinjection.abstractions.5.0.0-preview.1.20120.4.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.logging\\3.1.0\\microsoft.extensions.logging.3.1.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.0\\microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.options\\3.1.0\\microsoft.extensions.options.3.1.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\system.collections.immutable\\1.7.0\\system.collections.immutable.1.7.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Microsoft.Extensions.DependencyInjection/5.0.0-preview.1.20120.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0-preview.1.20120.4"
+        },
+        "compile": {
+          "lib/netcoreapp5.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp5.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0-preview.1.20120.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "ShortLink.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ShortLink.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShortLink.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection/5.0.0-preview.1.20120.4": {
+      "sha512": "CEmbKkrUhfIIDV9m2dhPrKfPqW+WmB3aAEZhWLqcVkX0On7f2R0FTWCSvWqgZkrY0g5+xaGdXw6CofIWmIyXng==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/5.0.0-preview.1.20120.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp5.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp5.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.5.0.0-preview.1.20120.4.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0-preview.1.20120.4": {
+      "sha512": "nR8JGs9F4uKUJHA3rXZYVpU4kzQ7G38h3rYq7KgPr3vEWGuCFBL88ZMQMRNRXnBi5kogs9ZQtXZ6D8lo+ccv7A==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0-preview.1.20120.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.5.0.0-preview.1.20120.4.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "ShortLink.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ShortLink.Domain/ShortLink.Domain.csproj",
+      "msbuildProject": "../ShortLink.Domain/ShortLink.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Microsoft.Extensions.DependencyInjection >= 5.0.0-preview.1.20120.4",
+      "ShortLink.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\King\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\King\\Documents\\ASP.Net\\ShortLink\\ShortLink.Inrfa.Ioc\\ShortLink.Inrfa.Ioc.csproj",
+      "projectName": "ShortLink.Inrfa.Ioc",
+      "projectPath": "C:\\Users\\King\\Documents\\ASP.Net\\ShortLink\\ShortLink.Inrfa.Ioc\\ShortLink.Inrfa.Ioc.csproj",
+      "packagesPath": "C:\\Users\\King\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\King\\Documents\\ASP.Net\\ShortLink\\ShortLink.Inrfa.Ioc\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\King\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\King\\Documents\\ASP.Net\\ShortLink\\ShortLink.Domain\\ShortLink.Domain.csproj": {
+              "projectPath": "C:\\Users\\King\\Documents\\ASP.Net\\ShortLink\\ShortLink.Domain\\ShortLink.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[5.0.0-preview.1.20120.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
