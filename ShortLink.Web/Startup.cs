@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -14,6 +15,8 @@ using ShortLink.Inrfa.Ioc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 using System.Threading.Tasks;
 
 namespace ShortLink.Web
@@ -32,12 +35,31 @@ namespace ShortLink.Web
         {
             RegisterService(services);
             services.AddControllersWithViews();
-            services.AddScoped<IUserRepository, UserRepository>();
-            services.AddScoped<IUserService, UserService>();
             #region db context
             services.AddDbContext<ShortLinkContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("ShortLinkSqlConnection"));
+            });
+            #endregion
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IPasswordHelper, PasswordHelper>();
+            services.AddSingleton<HtmlEncoder>(HtmlEncoder.Create(allowedRanges: new[] {
+                UnicodeRanges.BasicLatin,
+                UnicodeRanges.Arabic
+            }));
+
+            #region authentication
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            }).AddCookie(options =>
+            {
+                options.LoginPath = "/login";
+                options.LogoutPath = "/log-Out";
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(43200);
             });
             #endregion
         }
@@ -61,7 +83,7 @@ namespace ShortLink.Web
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseAuthentication();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

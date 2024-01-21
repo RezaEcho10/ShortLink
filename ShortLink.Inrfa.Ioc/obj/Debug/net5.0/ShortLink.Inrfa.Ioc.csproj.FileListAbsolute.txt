@@ -10,3 +10,6 @@ C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Inrfa.Ioc\obj\Debug\net5.0\S
 C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Inrfa.Ioc\obj\Debug\net5.0\ShortLink.Inrfa.Ioc.dll
 C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Inrfa.Ioc\obj\Debug\net5.0\ref\ShortLink.Inrfa.Ioc.dll
 C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Inrfa.Ioc\obj\Debug\net5.0\ShortLink.Inrfa.Ioc.pdb
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Inrfa.Ioc\bin\Debug\net5.0\ShortLink.Domain.dll
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Inrfa.Ioc\bin\Debug\net5.0\ShortLink.Domain.pdb
+C:\Users\King\Documents\ASP.Net\ShortLink\ShortLink.Inrfa.Ioc\obj\Debug\net5.0\ShortLink.Inrfa.Ioc.csproj.CopyComplete
